@@ -387,3 +387,21 @@ ul img {
 .lavaLampWithImage li a:hover, .lavaLampWithImage li a:active, .lavaLampWithImage li a:visited {
   border: none;
 }
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+.hover {
+  filter: brightness(0.8);
+  transition: 0.3s;
+}
+
+.hover:hover {
+  filter: brightness(1);
+}
