@@ -405,3 +405,11 @@ ul img {
 .hover:hover {
   filter: brightness(1);
 }
+
+.teamLeft {
+  margin: 10px 10px 0 0
+}
+
+.teamRight {
+  margin: 10px 0 0 10px
+}
